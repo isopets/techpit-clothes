@@ -17,8 +17,8 @@ class CreateProductsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->text('description');
-            $table->string('image');
-            $table->integer('price');
+            npm install --save @fortawesome/fontawesome-free
+
             $table->timestamps();
         });
     }
