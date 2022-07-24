@@ -11,7 +11,7 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('products')->insert([
+        DB::table('products')->inert([
             [
                 'name' => 'Black T-shirt',
                 'description' => 'コットン素材を使用したクールネックのカットソー。',
@@ -38,7 +38,7 @@ class ProductSeeder extends Seeder
             ],
             [
                 'name' => 'Black T-shirt 2',
-                'description' => 'コットン素材を使用したクルーネックのカットソー。',
+                'description' => 'コットン素材を使用したクルーネックのカットソー。シンプルなデザインで、様々なスタイリングに合わせやすいアイテム。',
                 'image' => '/images/5.jpg',
                 'price' => '4500'
             ],
