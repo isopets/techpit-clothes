@@ -1,0 +1,62 @@
+.top {
+    &-img {
+        background-image: url(../../public/images/top.jpg);
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &-text {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+    }
+    &__title {
+        font-size: 32px;
+        color: #4a4a4a;
+        letter-spacing: 2px;
+        padding: 20px 0 40px;
+    }
+}
+
+.card {
+    &-product-name {
+        padding: 12px;
+    }
+    &-quantity{
+        padding: 12px;
+    }
+    &__total-price {
+        padding: 12px;
+    }
+    &__btn-trash {
+        padding: 12px;
+    }
+    &:hover {
+        transform:  scale(1.01);
+        transition-duration: 0.5s;
+    }
+    &-img {
+        height: 440px;
+        background-size: cover;
+    }
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &-img {
+        height: 120px;
+        width: 80px;
+    }
+    &__content-header {
+        padding: 40px 0 40px;
+    }
+    &-name {
+        font-size: 32px;
+        color: #4a4a4a;
+    }
+}
