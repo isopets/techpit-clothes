@@ -13,9 +13,5 @@ class ProductController extends Controller
         ->with('products', Product::get());
     }
 
-    public function show($id)
-    {
-    return view('product.show')
-        ->with('product',Product::find($id));
-    }
+    publicf
 }

@@ -14,8 +14,4 @@ class ProductController extends Controller
     }
 
     public function show($id)
-    {
-    return view('product.show')
-        ->with('product',Product::find($id));
-    }
 }

@@ -14,7 +14,7 @@
     <div class="top__title text-center">All Products</div>
 <div class="row">
     @foreach ($products as $product)
-    <a href="{{route('product.show', $product->id)}}" class="col-lg-4 col-md-6">
+    <a href="{{route('product.show', $product->i)}}" class="col-lg-4 col-md-6">
         <div class="card">
         <img src="{{asset($product->image)}}" class="card-img" alt="">
         <div class="card-body">

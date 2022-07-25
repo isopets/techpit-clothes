@@ -1,0 +1,18 @@
+@extends('layouts.app')
+
+@section('title')
+{{$product->name}}
+@endsection
+
+@section('content')
+<div class="container">
+    <div class="prodct">
+        <img src="{{asset($product->image)}}" class="product-img" />
+        <div class="product__content-header">
+            <div class="product__name">{{$product->name}}</div>
+            <div class="product__price">\{{number_format($product->price)}}</div>
+        </div>
+        {{$product->description}}
+    </div>
+</div>
+@endsection
