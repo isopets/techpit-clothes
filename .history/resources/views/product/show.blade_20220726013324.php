@@ -6,9 +6,9 @@
 
 @section('content')
 <div class="container">
-    <div class="product">
+    <div class="prodct">
         <img src="{{asset($product->image)}}" class="product-img" />
-        <div class="product__content-header text-center">
+        <div class="product__content-header　てｘｔ">
             <div class="product__name">{{$product->name}}</div>
             <div class="product__price">￥{{number_format($product->price)}}
             </div>
