@@ -9325,13 +9325,17 @@ h3 {
   flex-direction: column;
 }
 .product-img {
+  height: 500px;
+  margin-top: 40px;
+}
+.product-cart-img {
   height: 120px;
   width: 80px;
 }
 .product__content-header {
   padding: 40px 0 40px;
 }
-.product-name {
+.product__name {
   font-size: 32px;
   color: #4a4a4a;
   letter-spacing: 2px;
@@ -9370,6 +9374,9 @@ h3 {
   font-size: 16px;
   color: #4a4a4a;
   letter-spacing: 1px;
+}
+.cart__purchase {
+  margin-top: 24px;
 }
 .cart__empty {
   font-size: 16px;
