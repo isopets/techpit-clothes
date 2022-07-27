@@ -1,14 +1,10 @@
+<?php
+
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Cart extends Model
+class LineItem extends Model
 {
-    public function products()
-    {
-        return $this->belongsToMany(
-          Product::class,
-          'line_items',
-        )->withPivot(['id', 'quantity']);
-    }
+    protected $fillable = ['cart_id', 'product_id', 'quantity'];
 }
